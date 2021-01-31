@@ -1,0 +1,103 @@
+
+.logo{
+  width: 50%;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+.number{
+  font-size:19px;
+}
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+i{
+  font-size: 25px;
+}
+.tagline{
+  background-color:#29AF71;
+  color:white;
+}
+.nav-bar .port-item{
+  background-color:grey;
+  color:white;
+  border-bottom: 10px solid grey;  
+}
+.nav-bar .port-item:hover{
+  border-bottom: 10px solid #FEBD19;
+}
+.about-us{
+  background-color:#F2F2F2;
+}
+.about-us p{
+  font-size:15px;
+  font-family:arial;
+  width:80%;
+  margin: 30px auto;
+  line-height: 30px;
+}
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
+.row{
+  margin:0;
+}
+#portfolio{
+  background-color:#212121;
+}
+.col-sm-8{
+  padding:0;
+}
+#reviews{
+  background-color: #F2F2F2;
+}
+.text-width{
+  width:90%;
+}
+#reviews i{
+  text-align: center;
+  vertical-align:middle;
+}
+.bg-black{
+  background-color:black;
+}
+.request{
+  background-color:#29AF71;
+}
+#contact input{
+  width:100%;
+  outline:none;
+  border:0;
+  height:5vh;
+  padding:25px;
+  border-radius: 6px;
+}
+#contact button{
+  width:100%;
+}
+iframe{
+  border:0;
+  width:100%;
+  height:70vh;
+}
+h1,h2,p{
+  text-align:center;
+}
+footer{
+  background-color:#24262A;
+  color:white;
+
+}
+body{
+  background-color: #F2F2F2;
+}
+#portfolio img:hover{
+  opacity:0.5;
+  transform:scale(0.8) ;
+  transition: 0.3s ease;
+}
